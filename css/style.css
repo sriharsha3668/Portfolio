@@ -1,0 +1,70 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+
+/* 
+now we are going to add an image in the background using CSS. Unlike in HTML, we have a different syntax to add an image using CSS.
+  It's shown below in the comments.
+  ../images is used because we need to exit the present folder of css and enter the images folder.
+*/
+body {
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background: url('../images/Harsha.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;  the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques 
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/*
+ Width in the container provides a specific breadth to the box as specified by the user.
+*/
+#box
+{
+	color: #f4f7fe;
+	background: #0b0f35;
+	padding: 20px;
+	width: 500px;
+
+}
+h1
+{
+	color: white;
+	font-size: 70px;
+}
+h2
+{
+	color: black;
+	padding: 10px;
+	width: 300px;
+	background: white;
+	border-radius: 5px;
+}
+a
+{
+	color: #7682ac;
+  text-decoration: none;	
+}
+a:hover
+{
+	color: #7682ac;
+  text-decoration: underline;	
+}
+
+
+#zoo a:hover
+{
+   text-decoration: none;
+}
+#simhadri
+{
+	background: white;
+}
